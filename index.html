@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab3</title>
+    <style>
+      body{
+        background-color: #F8F8F8;
+      }
+        table,th,td,tr{
+            border-radius: 20px;
+            border-color: #4797CE;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            padding-left: 15px;
+            padding-left: 15px;
+        }
+        #carTable {
+          margin-right: auto;
+          margin-left: auto;
+        }
+        #table-header {
+          text-align: left;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+</head>
+<body>
+    <table id = "carTable">
+      <thead>
+        <tr id = "table-header">
+          <th>Carpark Number</th>
+          <th>TimeStamp</th>
+          <th>Lot Type</th>
+          <th>Total Lots</th>
+          <th>Lot Availability</th>
+          <th>Utilization</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+</body>
+
+<script src="lab3.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</html>
